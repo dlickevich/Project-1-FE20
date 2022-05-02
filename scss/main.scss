@@ -77,42 +77,6 @@ div {
     max-height:220px ;
    
 }
-.img_1{
-    display: flex;
-   justify-content: center;
-    align-content: center;
-    width: 70px;
-    height:60px;
-    background: url($pic05);
-   background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 10px;
-
-}
-.img_2{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 60px;
-    height:60px;
-    background: url($pic06);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 10px;
-}
-.img_3{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 60px;
-    height:60px;
-    background: url($pic07);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain ;
-    margin-bottom: 10px;
-}
 
 h3{
     
