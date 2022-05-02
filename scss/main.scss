@@ -71,48 +71,12 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap:10px;
-    margin-top: 40px;
-    max-width: 250px;
-    max-height:220px ;
+    min-height:100px ;
    
 }
-.img_1{
-    display: flex;
-   justify-content: center;
-    align-content: center;
-    width: 70px;
-    height:60px;
-    background: url($pic05);
-   background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 10px;
 
-}
-.img_2{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 60px;
-    height:60px;
-    background: url($pic06);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 10px;
-}
-.img_3{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 60px;
-    height:60px;
-    background: url($pic07);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain ;
-    margin-bottom: 10px;
-}
 
 h3{
     
@@ -141,7 +105,6 @@ p{
     gap:10px;
     max-width: 50%;
     background-color: white;
-    
     }
     section {
         display: flex;
@@ -151,8 +114,8 @@ p{
         margin: auto;
         padding: 30px;
        text-align: left;
-        
-    }
+      }
+ 
 p, h3{
     display: flex;
     justify-content: left;
@@ -166,14 +129,8 @@ p{
 h3{
     font-size: clamp(1.5em, 2vw, 1.8em);
 }
-.img{
-     width: 50vw;
-     background: url($pic02);
-     background-size: cover;
-     background-position: left;
-    
-   }
- }//art3
+}//art3
+
 .art_4 {
     display: flex;
     flex-direction: row-reverse;
@@ -185,7 +142,6 @@ h3{
         gap: 10px;
         max-width: 50%;
         background-color: white;
-    
     }
     
     section {
@@ -196,7 +152,6 @@ h3{
         margin: auto;
         padding: 30px;
         text-align: left;
-    
     }
 
     p,
@@ -213,14 +168,6 @@ h3{
     
     h3 {
         font-size: clamp(1.5em, 2vw, 1.8em);
-    }
-
-    .img {
-        width: 50%;
-        background: url($pic03);
-        background-size: cover;
-        background-position: center;
-
     }
 }//art_4
 .art_5 {
@@ -262,85 +209,61 @@ h3{
     h3 {
         font-size: clamp(1.5em, 2vw, 1.8em);
     }
-
-    .img {
-        width: 50%;
-        background: url($pic04);
-        background-size: cover;
-        background-position: center;
-
-    }
 }//art_5
 .art_6 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     background: $header-color;
-    min-height:300px;
+    min-height:400px;
     font-size: clamp(.9em, 3vw, 1.2em);
-    margin: 0;
-    padding: 0;
    
-   .h1{ 
-    max-height: 100px;
-    max-width: fit-content;
-    margin: 40px auto;
-    font-size: clamp(1.2em, 3vw, 1.6em)
+  
+
+    h3{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+   
+
+.comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:30px;
+    
+
 
 }
-    .comments{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        max-width: 800px;
-        margin: auto;
-        margin-bottom: 40px;
-        
-     
-
-    }
-    div {
-        display: flex;
-        flex-direction: column;
-        max-width:33%;
-        gap:10px;
-        
-     
-       
-        
-
-        
-    }
-
-
-    img {
-        border-radius: 100%;
-        height:100px;
-        width:100px;
-        margin:auto;
-
-      
-
-    }
-
+div.comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    max-width:1000px;
+  
+}
+    
+    
     h3 {
-
+       margin-top: 20px;
         text-align: center;
         font-style: bold;
 
     }
 
     p {
+        max-width: 300px;
         text-align: center;
+        margin-top: 10px;
         font-size: 0.8em;
         opacity: 0.5;
-        
+    }   
 
 
-    }
-
-
-
-}//art_6
+    }//art_6
 .art_7 {
     display: flex;
     justify-content: center;
@@ -359,6 +282,7 @@ h3{
         font-size: clamp(1.5em, 3vw, 2.2em);
         font-weight: 800;
         text-align: center;
+    }
 
         section {
             display: flex;
@@ -381,7 +305,7 @@ h3{
             border: none;
         }
 
-        //input
+      
 
         button {
             margin-top: 20px;
@@ -394,10 +318,10 @@ h3{
             color: white;
             background: $btn;
         }
-    }
+    
 
-    //.cont
-}
+    }//art_7
+
 footer{
 background: $header-color;
 display: flex;
@@ -405,11 +329,6 @@ min-height:150px;
 justify-content: space-around;
 align-items: center;
 
-
-img {
-    width: 30px;
-    height: 30px;
-}
 article {
     display: flex;
     justify-content: space-around;
@@ -439,7 +358,6 @@ p{
     font-size: 0.8em;
     opacity: 0.5;
 }
-
 }//footer
 }//main
 

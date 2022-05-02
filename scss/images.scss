@@ -1,0 +1,127 @@
+
+
+.img_2 {
+    width: 50%;
+    background: url($pic02);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.img_3 {
+    width: 50%;
+    background: url($pic03);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_4 {
+    width: 50%;
+    background: url($pic04);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.img_5 {
+    
+    display: flex;
+    position: relative;
+    top:20px;
+    width: 60px;
+    height: 30px;
+    background: url($pic05);
+    background-repeat: no-repeat;
+    
+
+}
+
+.img_6 {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: url($pic06);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.img_7 {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: url($pic07);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    }
+.img_8 {
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+background: url($pic08);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+border-radius: 100%;
+margin:auto;
+}
+    
+    
+    
+
+.img_9 {
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+background: url($pic09);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+border-radius: 100%;
+margin:auto;
+}
+   
+    
+
+.img_10 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: url($pic10);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+border-radius: 100%;
+margin:auto;
+
+}
+.img_11{
+  
+    width: 30px;
+    height: 30px;
+    background: url($pic11);
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+.img_12{
+    width: 30px;
+    height: 30px;
+    background: url($pic12);
+    background-repeat: no-repeat;
+    background-size: contain;}
+.img_13{
+    width: 30px;
+    height: 30px;
+    background: url($pic13);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
